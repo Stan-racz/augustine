@@ -13,7 +13,7 @@ if (empty($_SESSION['authlevel']) || $_SESSION['authlevel'] < 3) {
 *      C/ transformer les messages textuel de réponse en message flash placé dans la session
 *          de l'utilisateur 
 *      D/ l'appel à une fonction d'écriture dans la base de données (dans cette page)
-*        devra être suivi d'une réponse de redirection (pattern PRG) vers cette page 
+*        devra être suivi d'une réponse de redirection (pattern PRG) vers cette page (TEST MS)
 */
 
 
