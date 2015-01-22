@@ -28,9 +28,9 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://facebook.com/projetaugustinemelun" target="_blank"><font color="#3b5998"><i class="fa fa-facebook"></i></font></a>
+                <li><a href="http://facebook.com/projetaugustinemelun" target="_blank"><font color="#3b5998"><i class="fa fa-facebook-square"></i></font></a>
                 </li>
-                <li><a href="http://twitter.com/ProjetAugustine" target="_blank"><font color="#4099FF">&nbsp;&nbsp;<i class="fa fa-twitter"></i>&nbsp;&nbsp;</font></a>
+                <li><a href="http://twitter.com/ProjetAugustine" target="_blank"><font color="#4099FF"><i class="fa fa-twitter"></i></font></a>
                 </li>
                 <ul class="nav navbar-nav navbar-right navcompte">
                   <li class="dropdown" id="menuLogin">
