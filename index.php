@@ -13,7 +13,7 @@
     	<a href="http://www."><img src="img/.jpg"></a>
     	<a href="http://www.diderot.org"><img src="img/id_diderot-02.png"></a>
 </div>
-<!-- Présentation de Augustine -->
+<!-- Présentation de Augustine-->
 <div class="row">
     <div >
         <div class="page-header">
