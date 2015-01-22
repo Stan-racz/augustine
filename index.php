@@ -1,10 +1,10 @@
-<?php include_once('inc/bdd_conf.php');
-      include_once('inc/fonctions.php');
-?>
-<?php include_once('inc/header.php'); ?> 
+<?php
+    include_once('inc/bdd_conf.php');
+    include_once('inc/fonctions.php');
+    include_once('inc/header.php');
+    include_once('inc/menu.php'); ?>
 <body>
 
-<?php include_once('inc/menu.php'); ?>
 <div class="container">
  <p><img src="img/banniere.jpg"  alt=""></p>
  <br/>
