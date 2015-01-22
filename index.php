@@ -11,7 +11,7 @@
  <div class="row">
     	<a href="http://www.vinci-melun.org"><img src="img/logo-ldv.png"></a>
     	<a href="http://www."><img src="img/.jpg"></a>
-    	<a href="http://www.diderot.org"><img src="img/id.jpg"></a>
+    	<a href="http://www.diderot.org"><img src="img/id_diderot-02.png"></a>
 </div>
 <!-- Présentation de Augustine -->
 <div class="row">
