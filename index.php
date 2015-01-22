@@ -2,7 +2,9 @@
     include_once('inc/bdd_conf.php');
     include_once('inc/fonctions.php');
     include_once('inc/header.php');
-    include_once('inc/menu.php'); ?>
+    include_once('inc/menu.php');
+?>
+
 <body>
 
 <div class="container">
