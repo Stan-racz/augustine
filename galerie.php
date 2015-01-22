@@ -1,8 +1,7 @@
 <?php require_once('inc/bdd_conf.php'); 
-      require_once('inc/fonctions.php'); ?>
-
-
-<?php require_once('inc/header.php'); ?>
+      require_once('inc/fonctions.php');
+    require_once('inc/header.php');
+?>
 
 <body>
 
