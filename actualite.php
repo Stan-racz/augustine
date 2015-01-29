@@ -33,7 +33,7 @@ include_once('inc/header.php'); ?>
                           Notez cette actualité : <select name="com_note">
                           <option value="1">1</option>
                           <option value="2">2</option>
-                          <option value="3" selected="selected">3</option>
+                          <option value="3"selected="selected">3</option>
                           <option value="4">4</option>
                           <option value="5">5</option>
                       </select> / 5<br>
@@ -55,18 +55,12 @@ include_once('inc/header.php'); ?>
             {
                 $i=0;
 				// Répète l'opération selon le nombre de commentaire dans la bdd
-                while ($i < count($commentaires)) 
-                {
+                while ($i < count($commentaires)){
                     $com = $commentaires[$i++];
                     
 				    // Affiche le pseudo, la date, l'heure,
 					//  la note de l'actualité et le commentaire
-                    echo '<ol class="breadcrumbgrey">Envoy&eacute; par <strong>'
-                    . $com['pseudo']
-                    . '</strong> le <strong>'
-                    .    $com['dateCom']
-                    . '</strong> (Note : ' . $com['note'] . '),<br><br>'
-                    . nl2br($com['texte']) . '</ol><br>';
+                    echo '<ol class="breadcrumbgrey">Envoy&eacute; par <strong>'.$com['pseudo'].'</strong> le <strong>'.$com['dateCom'].'</strong> (Note : ' . $com['note'] . '),<br><br>'.nl2br($com['texte']) . '</ol><br>';
                 }
             } else // Sinon, le code affiche cela
             {
