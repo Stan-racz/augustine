@@ -10,7 +10,7 @@ include_once('inc/header.php'); ?>
         <div class="contentflow">
             <?php // Affichage actualités.
             $actu = getLastActualite();
-            if ( !$actu)
+            if (!$actu)
             {
                 echo "Il n'y a aucune actualité pour le moment.";                
             }else{                
@@ -26,7 +26,7 @@ include_once('inc/header.php'); ?>
                     <ol class="breadcrumb"> <?php echo $sortie ?> </ol>
 
                     <div class="commentary">
-                        <form action="news.php"  method="post">
+                        <form action="doComment.php"  method="post">
                           <!-- Si l'utilisateur est connecté, alors son pseudo sera entré directement, sinon 'Pseudonyme' sera la valeur par défaut. -->
                           <input type="text" name="com_user" value="<?php echo $user ?>">
                           <!-- Permet de noter l'actualité de 1 à 5--> 
