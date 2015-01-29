@@ -26,31 +26,31 @@ require_once('inc/menu.php');
         <div class="container">
             <div class="row">
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug1.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug1.jpg"></a>
+                        <a class="example-image-link" href="img/aug1.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug1.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug2.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug2.jpg"></a>
+                        <a class="example-image-link" href="img/aug2.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug2.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug3.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug3.jpg"></a>
+                        <a class="example-image-link" href="img/aug3.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug3.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug4.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug4.jpg"></a>
+                        <a class="example-image-link" href="img/aug4.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug4.jpg"></a>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug5.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug5.jpg"></a>
+                        <a class="example-image-link" href="img/aug5.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug5.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug6.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug6.jpg"></a>
+                        <a class="example-image-link" href="img/aug6.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug6.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug7.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug7.jpg"></a>
+                        <a class="example-image-link" href="img/aug7.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug7.jpg"></a>
                 </div>
                 <div class="col-md-3 portfolio-item">
-                        <a class="example-image-link" href="img/aug8.jpg" data-lightbox="example-set"><img class="img-responsive" src="img/aug8.jpg"></a>
+                        <a class="example-image-link" href="img/aug8.jpg" data-lightbox="example-set"><img class="img-responsive img-rounded" src="img/aug8.jpg"></a>
                 </div>
             </div>
         </div>
