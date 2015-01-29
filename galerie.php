@@ -6,6 +6,7 @@ require_once('inc/menu.php');
 ?>
 <html>
 
+<!-- Feuille de style -->
 <link href="css/lightbox.css" rel="stylesheet" />
 
 <!-- JavaScript -->
