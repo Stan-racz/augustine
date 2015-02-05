@@ -38,32 +38,39 @@
                   <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">&nbsp;&nbsp;Admin &nbsp;&nbsp;</a>
                        <div class="dropdown-menu" style="padding:17px;">
                          <?php if ($_SESSION['authlevel'] == 3) : ?>
-                           <p style="padding:1px;"><a
-                             href="user.php"><i class="fa fa-group"></i> Gestion utilisateurs</a>
+                           <p style="padding:7px;"><a
+                             href="user.php"><span class="fa fa-group"></span> Gestion utilisateurs</a>
                            </p><hr><?php endif; ?>
                          <?php if ($_SESSION['authlevel'] >= 2) : ?>
-                             <p style="padding:1px;"><a
-                               href="actualite.php"><span class="glyphicon glyphicon-bullhorn"> Gestion actualités</span></a>
+                             <p style="padding:7px;"><a
+                               href="actualite.php"><span class="fa fa-bullhorn"></span> Gestion actualités</a>
                               </p><hr><?php endif; ?>
                          <?php if ($_SESSION['authlevel'] >= 1) : ?>
-                            <p style="padding:1px;"><a
-                               href="commentaire.php"><span class="glyphicon glyphicon-comment"> Gestion commentaires</span></a>
+                            <p style="padding:7px;"><a
+                               href="commentaire.php"><span class="fa fa-comments"></span> Gestion commentaires</a>
                             </p><hr><?php endif; ?>
-                        <p style="padding:1px;"><a href="options.php"><span class="glyphicon glyphicon-cog"> Options</span></a></p>
+                        <p style="padding:7px;"><a href="options.php"><span class="fa fa-cog"></span> Options</a></p>
                         <hr>
-                        <p style="padding:1px;"><a href="logout.php?out=1"><span
-                             class="glyphicon glyphicon-off"> D&eacute;connexion</span></a></p>
+                        <p style="padding:7px;"><a href="logout.php?out=1"><span
+                             class="fa fa-sign-out"></span>D&eacute;connexion</a></p>
                       </div>
                        <?php
                          else  : // Si l'utilisateur n'est pas connecté.
                         ?>
                           <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">S'identifier</a>
-                          <div class="dropdown-menu" style="padding:17px;">
-                              <form class="form" id="formLogin" action="doLogin.php" method="POST">
-                                  <input name="username" id="username" placeholder="Pseudo" type="text">
-                                  <input name="password" id="password" placeholder="Mot de passe" type="password"><br>
-                                  <input type="submit" value="Login" id="btnLogin" class="btn">
+                          <div class="dropdown-menu" style="padding:15px;">
+                               <form role="form" id="formLogin" action="doLogin.php" method="POST">
+                                   <div class="form-group">
+                                       <label for="username">Identifiant :</label>
+                                       <input name="username" type="text" class="form-control" id="username">
+                                   </div>
+                                   <div class="form-group">
+                                       <label for="pwd">Mot de passe :</label>
+                                       <input name="password" type="password" class="form-control" id="pwd">
+                                   </div>
+                                   <center><button type="submit" class="btn btn-default">Login</button></center>
                                </form>
+
                           </div>
                         <?php endif;?>
                     </li>
