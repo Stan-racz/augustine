@@ -13,8 +13,6 @@
     <link href= "css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
     <link href= "css/font-awesome.css" rel="stylesheet" />
-
     <!-- Add custom CSS here -->
     <link href= "css/custom.css" rel="stylesheet" />
-
 </head>
