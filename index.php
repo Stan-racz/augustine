@@ -7,14 +7,15 @@
 
 <body>
     <section class="container">
+       <!-- Image en tête -->
         <aside class="row">
-            <img src="img/banniere.jpg"  alt="">
+            <img src="img/banniere.jpg">
             <br/>
             <a href="http://www.vinci-melun.org"><img src="img/logo-ldv.png"></a>
             <a href="http://www."><img src="img/.jpg"></a>
             <a href="http://www.diderot.org"><img src="img/id_diderot-02.png"></a>
         </aside>
-        <!-- Présentation de Augustine-->
+        <!-- Présentation de Augustine -->
         <article class="row">
             <h2 class="page-header">Augustine</h2>
                 <div class="row">
@@ -33,12 +34,10 @@
             <h2 class="page-header">Challenge EducEco</h2>
                 <div class="row">
                     <p>
-                        Le but de ce challenge est de consommer le moins d'énergie possible pour parcourir 17,14Km avec
-                        une vitesse moyenne minimum de 25Km/h.
+                        Le but de ce challenge est de consommer le moins d'énergie possible pour parcourir 17,14Km avec une vitesse moyenne minimum de 25Km/h.
                         <br/>
-                        Une demie-journée est réservée à la découverte de la piste et aux essais
-                        libres. Les contraintes du circuit urbain ne sont pas celles d'une piste de circuits automobile ainsi, les
-                        véhicules seront appelés par groupes homogène classés selon:
+                        Une demie-journée est réservée à la découverte de la piste et aux essais libres.
+                        Les contraintes du circuit urbain ne sont pas celles d'une piste de circuits automobile ainsi, les véhicules seront appelés par groupes homogène classés selon:
                     </p>
                     <ul>
                         <li>Le groupe des véhicules éeco-citadins (tous vecteurs d'énergie);</li>
