@@ -17,3 +17,11 @@ body {
 .center form {
     display:inline-block;
 }
+
+#foo {
+    color: white;
+    background-color: #222222;
+    margin-left:-110px;
+    margin-right:-110px;
+}
+
