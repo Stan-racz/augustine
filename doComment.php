@@ -27,7 +27,8 @@
         $req->bindParam(':note', $note_com);
         $req->bindParam(':ip', $_SERVER['REMOTE_ADDR']);
         $req->bindParam(':idactu', $actu['id']);
-        var_dump($_SERVER);
         $req->execute();
-
+        print('<body onLoad="alert(\'Commentaire bien enregistre\')">');
+        print('<meta http-equiv="refresh" content="0;URL=actualite.php">');
     }
+?>
