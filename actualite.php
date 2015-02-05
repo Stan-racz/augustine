@@ -10,10 +10,10 @@ include_once('inc/header.php'); ?>
         <div class="contentflow">
             <?php // Affichage actualités.
             $actu = getLastActualite();
-            if (!$actu)
-            {
+            if (!$actu){
                 echo "Il n'y a aucune actualité pour le moment.";                
-            }else{                
+            }
+            else{
                 $titlestring = '<ol class="breadcrumbgrey">' . $actu['title'] . '</ol><br>';
                 $datestring = "<div style='width:100%;text-align:right;'><br><br><strong>Envoy&eacute; le " . $actu['timePost'] . "</strong></div>";
                 $adstring = nl2br($actu['texte']);
@@ -51,8 +51,7 @@ include_once('inc/header.php'); ?>
             <?php // Commentaires.
             $commentaires = getCommentairesByIdActualite($actu['id']);  
 
-            if ($commentaires) 
-            {
+            if ($commentaires){
                 $i=0;
 				// Répète l'opération selon le nombre de commentaire dans la bdd
                 while ($i < count($commentaires)){

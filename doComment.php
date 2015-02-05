@@ -1,4 +1,6 @@
 <?php
+    require_once('inc/bdd_conf.php');
+    require_once('inc/fonctions.php');
 
     //récupération des données du commentaire
     $cpt=0;
@@ -14,6 +16,18 @@
         $com=$_POST['com'];
         $cpt++;
     }
-    //execution de la requet si condition ok
+    //execution de la requete si condition ok
     if($cpt==3){
-        $req="INSERT INTO commentaire (pseudo, texte, date_comm, note, ip) VALUES ('$nom_user', '$com','$_SERVER['REQUEST_TIME']', '$note_com', '$_SERVER['REMOTE_ADDR']', :id);";
+        $id=$pdo->lastInsertId();
+        $actu=getLastActualite();
+        $req=$pdo->prepare("INSERT INTO `commentaire`(`id`, `pseudo`, `texte`, `note`, `ip`, `idActu`) VALUES (:id, :nom, :com, :note, :ip, :idactu)");
+        $req->bindParam(':id', $id);
+        $req->bindParam(':nom', $nom_user);
+        $req->bindParam(':com', $com);
+        $req->bindParam(':note', $note_com);
+        $req->bindParam(':ip', $_SERVER['REMOTE_ADDR']);
+        $req->bindParam(':idactu', $actu['id']);
+        var_dump($_SERVER);
+        $req->execute();
+
+    }
