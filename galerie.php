@@ -55,11 +55,6 @@ require_once('inc/menu.php');
                 </div>
             </div>
         </div>
-
-        <!-- /.container -->
-
-
-
     </body>
 <?php require_once('inc/footer.php'); ?>
 </html>
