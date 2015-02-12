@@ -28,7 +28,9 @@
         $req->bindParam(':ip', $_SERVER['REMOTE_ADDR']);
         $req->bindParam(':idactu', $actu['id']);
         $req->execute();
+        //Affichage de l'alerte commentaire bien enregistré
         print('<body onLoad="alert(\'Commentaire bien enregistre\')">');
+        //Redirection vers la page d'actualité
         print('<meta http-equiv="refresh" content="0;URL=actualite.php">');
     }
 ?>
