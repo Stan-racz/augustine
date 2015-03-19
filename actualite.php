@@ -37,6 +37,7 @@ include_once('inc/header.php'); ?>
                           <option value="4">4</option>
                           <option value="5">5</option>
                       </select> / 5<br>
+                      <input type="hidden" name="idactu" value="<?php echo $actu['id'] ?>" />
                       <textarea name="com" style="width:100%;height:150px;"></textarea> <!-- Zone de texte -->
                       <input type="hidden" name="idActu" value="<?php if (isset($actu)) { echo $actu['id'];} ?>"> 
                       <!-- Champ caché pour ne pas afficher id -->
