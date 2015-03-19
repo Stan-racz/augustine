@@ -1,8 +1,8 @@
 <?php
-    include_once('inc/bdd_conf.php');
-    include_once('inc/fonctions.php');
-    include_once('inc/header.php');
-    include_once('inc/menu.php');
+include_once('inc/bdd_conf.php');
+include_once('inc/fonctions.php');
+include_once('inc/header.php');
+include_once('inc/menu.php');
 ?>
 
 <body>
@@ -12,13 +12,13 @@
             <img src="img/banniere.jpg">
             <br/>
             <a href="http://www.vinci-melun.org"><img src="img/logo-ldv.png"></a>
-            <a href="http://www."><img src="img/.jpg"></a>
+            <!--<a href="http://www."><img src="img/.jpg"></a>-->
             <a href="http://www.diderot.org"><img src="img/id_diderot-02.png"></a>
         </aside>
         <!-- Présentation de Augustine -->
         <article class="row">
             <h2 class="page-header">Augustine</h2>
-                <div class="row">
+                <aside class="row">
                     <p>
                         Ce projet est née par l'association de deux lycées. Le <a href="http://www.vinci-melun.org">lycée Léonard de Vinci</a> de Melun (BTS CPI et BAC Pro technicien d'usinage), qui se concentre sur la conception de la coque.
                         Et le <a href="http://www.diderot.org">lycée Diderot</a> de Paris (BTS IRIS) qui se concentre sur la partie éléctronique de la voiture.
@@ -30,9 +30,9 @@
                         <br/>
                         Augustin... Augustine. Ce nom vient tout simplement de <a href="http://fr.wikipedia.org/wiki/Augustin_Mouchot" target="_blank">Augustin Mouchot</a>, l'homme qui a inventé le capteur solaire.
                     </p>
-                 </div>
+                 </aside>
             <h2 class="page-header">Challenge EducEco</h2>
-                <div class="row">
+                <aside class="row">
                     <p>
                         Le but de ce challenge est de consommer le moins d'énergie possible pour parcourir 17,14Km avec une vitesse moyenne minimum de 25Km/h.
                         <br/>
@@ -45,7 +45,7 @@
                         <li>Le groupe des véhicules prototype électriques.</li>
                     </ul>
                     <p> Pour un accès au site <a href="http://www.educeco.net/" target="_blank">Cliquez ici</a></p>
-                </div>
+                </aside>
             <h2 class="page-header">Association Tournesol</h2>
         </article>
     </section>
